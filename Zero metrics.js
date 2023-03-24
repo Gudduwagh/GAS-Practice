@@ -7,12 +7,12 @@ specified in an input sheet in a Google Sheets spreadsheet, and export the
  report includes information such as the top 50 spending keywords, the name of the 
  campaign and ad group, the name of the customer, and the cost of the ad over the
  last 30 days. */
-
+// this is for practice perpose
 // Define the URL of the Google Sheets spreadsheet that contains the input and output sheets.
 var url = "https://docs.google.com/spreadsheets/d/15BKeU28ct6hlJmn67_F-g88b3OaofewJPX7cOBP4BUI/edit#gid=528933589";
 
 // Define the names of the input and output sheets within the Google Sheets spreadsheet.
-var reportsheet = "Output";
+var reportsheet = "Output"; 
 var accountssheet = "Input from user";
 
 // The main function that runs the script.
